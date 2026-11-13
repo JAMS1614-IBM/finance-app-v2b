@@ -1,0 +1,14 @@
+:root { font-family: -apple-system, "Segoe UI", system-ui, sans-serif; color: #1f2328; background: #f7f8fa; }
+body { margin: 0; }
+.page { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; margin-top: 16px; }
+.quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.quote { background: #fff; border: 1px solid #e5e7eb; border-top: 4px solid; border-radius: 8px; padding: 12px; }
+.quote h3 { margin: 0; font-size: 14px; }
+.price { font-size: 22px; margin: 4px 0; }
+.up { color: #198038; } .down { color: #da1e28; }
+.tabs { display: flex; gap: 8px; margin-top: 24px; }
+.tabs button { padding: 8px 14px; border: 1px solid #e5e7eb; background: #fff; border-radius: 6px; cursor: pointer; }
+.tabs button[aria-selected="true"] { background: #0f62fe; color: #fff; border-color: #0f62fe; }
+.state { color: #57606a; }
+.state-error { color: #da1e28; }
